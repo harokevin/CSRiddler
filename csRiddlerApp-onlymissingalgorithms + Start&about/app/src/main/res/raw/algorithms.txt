@@ -1,0 +1,9 @@
+this is a algorithms true and false question 1(answer false)/ 1 f*
+this is a algorithms true and false question 2(answer true)/ 2 t*
+this is a algorithms true and false question 3(answer false)/ 3 f*
+this is a algorithms true and false question 4(answer true)/ 4 t*
+this is a algorithms simpleAnswer question 1/answer to question 1!
+this is a algorithms simpleAnswer question 2/answer to question 2!
+this is a algorithms simpleAnswer question 3/answer to question 3!
+this is a algorithms simpleAnswer question 4/answer to question 4!
+this is a algorithms simpleAnswer question 5/answer to question 5!

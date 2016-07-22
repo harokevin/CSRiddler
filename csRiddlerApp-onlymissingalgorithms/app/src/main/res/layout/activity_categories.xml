@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/categoriesnew"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.csriddlerapp.MainActivity" >
+
+   <Button
+       android:id="@+id/datastructures_button"
+       android:layout_width="200dp"
+       android:layout_height="50dp"
+       android:layout_alignLeft="@+id/algorithms_button"
+       android:layout_alignParentTop="true"
+       android:background="@drawable/buttonxml"
+       android:text="@string/datastructures_button"
+        android:textSize="20sp" 
+       />
+
+   <Button
+       android:id="@+id/puzzles_button"
+       android:layout_width="200dp"
+       android:layout_height="50dp"
+       android:layout_alignLeft="@+id/datastructures_button"
+       android:layout_below="@+id/datastructures_button"
+       android:layout_marginTop="25dp"
+       android:background="@drawable/buttonxml"
+       android:text="@string/logicalpuzzles_button" 
+       android:textSize="20sp"/>
+
+   <Button
+       android:id="@+id/algorithms_button"
+       android:layout_width="200dp"
+       android:layout_height="50dp"
+       android:layout_below="@+id/puzzles_button"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="24dp"
+       android:background="@drawable/buttonxml"
+       android:text="@string/algorithms_button"
+       android:textSize="20sp" />
+
+   <Button
+       android:id="@+id/code_button"
+       android:layout_width="200dp"
+       android:layout_height="50dp"
+       android:layout_alignLeft="@+id/algorithms_button"
+       android:layout_below="@+id/algorithms_button"
+       android:layout_marginTop="17dp"
+       android:background="@drawable/buttonxml"
+       android:text="Interview Questions"
+       android:textSize="20sp" />
+    
+</RelativeLayout>
